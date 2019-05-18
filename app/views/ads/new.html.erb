@@ -1,0 +1,12 @@
+<div class="container-fluid">
+
+<%= form_for(@ad) do |f| %>
+<%= f.label "Name: " %><%= f.text_field :name %> <br>
+<%= f.label "Description: " %><%= f.text_field :description %> <br>
+<%= f.label "Price: " %><%= f.text_field :price %> <br>
+<%= f.label "Email: " %><%= f.text_field :email %> <br>
+<%= f.label "img_url:" %><%= f.text_field :img_url %> <br>
+<%= f.submit %>
+<% end %>
+
+</div>
